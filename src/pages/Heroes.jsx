@@ -4,11 +4,11 @@ const heroes = [
   {
     name: "HOMELANDER",
     image: "/heroes/homelander.jpg",
-    status: "ACTIVE",
-    threat: "EXTREME",
+    status: "FALLECIDO",
+    threat: "EXTREMA",
     ranking: "#1",
     approval: "98%",
-    stability: "STABLE",
+    stability: "ESTABLE",
     clearance: "OMEGA",
     description:
       "Líder oficial de The Seven y principal símbolo de poder de Vought International. Considerado el Supe más poderoso del planeta.",
@@ -17,11 +17,11 @@ const heroes = [
   {
     name: "QUEEN MAEVE",
     image: "/heroes/maeve.jpg",
-    status: "RETIRED",
-    threat: "HIGH",
-    ranking: "#2",
+    status: "FALLECIDA",
+    threat: "ALTA",
+    ranking: "#3",
     approval: "91%",
-    stability: "STABLE",
+    stability: "ESTABLE",
     clearance: "ALPHA",
     description:
       "Veterana de The Seven reconocida por su capacidad de combate, liderazgo táctico y experiencia en operaciones de alto riesgo.",
@@ -30,11 +30,11 @@ const heroes = [
   {
     name: "A-TRAIN",
     image: "/heroes/atrain.jpg",
-    status: "ACTIVE",
-    threat: "HIGH",
-    ranking: "#5",
+    status: "FALLECIDO",
+    threat: "ALTA",
+    ranking: "#6",
     approval: "84%",
-    stability: "UNSTABLE",
+    stability: "ESTABLE",
     clearance: "BETA",
     description:
       "Velocista oficial de The Seven. Especializado en respuesta rápida y persecución de amenazas urbanas.",
@@ -43,11 +43,11 @@ const heroes = [
   {
     name: "THE DEEP",
     image: "/heroes/deep.jpg",
-    status: "ACTIVE",
-    threat: "MODERATE",
+    status: "FALLECIDO",
+    threat: "MODERADO",
     ranking: "#7",
     approval: "73%",
-    stability: "STABLE",
+    stability: "ESTABLE",
     clearance: "GAMMA",
     description:
       "Especialista en operaciones marítimas y protección oceánica. Representante oficial de Oceanland.",
@@ -56,11 +56,11 @@ const heroes = [
   {
     name: "BLACK NOIR",
     image: "/heroes/noir.jpg",
-    status: "DECEASED",
-    threat: "EXTREME",
-    ranking: "#3",
+    status: "FALLECIDO",
+    threat: "EXTREMO",
+    ranking: "#4",
     approval: "89%",
-    stability: "CLASSIFIED",
+    stability: "CLASIFICADO",
     clearance: "OMEGA",
     description:
       "Operativo táctico de élite con historial clasificado. Reconocido por su eficiencia en misiones encubiertas.",
@@ -69,11 +69,11 @@ const heroes = [
   {
     name: "TRANSLUCENT",
     image: "/heroes/translucent.jpg",
-    status: "DECEASED",
-    threat: "HIGH",
-    ranking: "#6",
+    status: "FALLECIDO",
+    threat: "ALTO",
+    ranking: "#10",
     approval: "78%",
-    stability: "STABLE",
+    stability: "ESTABLE",
     clearance: "BETA",
     description:
       "Miembro original de The Seven especializado en infiltración, espionaje y reconocimiento táctico.",
@@ -82,11 +82,11 @@ const heroes = [
   {
     name: "SISTER SAGE",
     image: "/heroes/sage.jpg",
-    status: "ACTIVE",
-    threat: "EXTREME",
-    ranking: "#4",
+    status: "N/A",
+    threat: "EXTREMA",
+    ranking: "#5",
     approval: "87%",
-    stability: "STABLE",
+    stability: "ESTABLE",
     clearance: "OMEGA",
     description:
       "Considerada la mente más inteligente registrada por Vought International. Especialista estratégica.",
@@ -95,11 +95,11 @@ const heroes = [
   {
     name: "FIRECRACKER",
     image: "/heroes/firecracker.jpg",
-    status: "ACTIVE",
-    threat: "HIGH",
+    status: "FALLECIDA",
+    threat: "BAJA",
     ranking: "#8",
     approval: "82%",
-    stability: "STABLE",
+    stability: "ESTABLE",
     clearance: "BETA",
     description:
       "Figura mediática de alto impacto con fuerte influencia pública y participación en campañas nacionales.",
@@ -108,11 +108,11 @@ const heroes = [
   {
     name: "SOLDIER BOY",
     image: "/heroes/soldierboy.jpg",
-    status: "CLASSIFIED",
+    status: "N/A",
     threat: "OMEGA",
-    ranking: "#0",
+    ranking: "#2",
     approval: "95%",
-    stability: "UNSTABLE",
+    stability: "INESTABLE",
     clearance: "OMEGA",
     description:
       "Activo histórico de Vought International. Catalogado como uno de los Supes más peligrosos jamás registrados.",
@@ -147,7 +147,7 @@ export default function Heroes() {
           </p>
 
           <h1 className="text-6xl md:text-8xl font-black leading-none">
-            THE SEVEN
+            LOS SIETE
           </h1>
 
           <p className="text-zinc-400 text-lg max-w-3xl mx-auto mt-8 leading-relaxed">
@@ -227,7 +227,7 @@ export default function Heroes() {
                   <div>
 
                     <p className="text-blue-400 uppercase tracking-[0.3em] text-xs mb-3">
-                      Vought Hero Dossier
+                      Expediente de héroe de Vought
                     </p>
 
                     <h2 className="text-4xl font-black leading-none">
@@ -243,7 +243,7 @@ export default function Heroes() {
 
                       <div className="border border-zinc-800 rounded-2xl p-4 bg-black/40">
                         <p className="text-xs text-zinc-500 uppercase tracking-widest">
-                          Status
+                          Estado
                         </p>
 
                         <p className="mt-2 text-green-400 font-black">
@@ -253,7 +253,7 @@ export default function Heroes() {
 
                       <div className="border border-zinc-800 rounded-2xl p-4 bg-black/40">
                         <p className="text-xs text-zinc-500 uppercase tracking-widest">
-                          Threat Level
+                          Nivel de amenaza
                         </p>
 
                         <p className="mt-2 text-red-400 font-black">
@@ -263,7 +263,7 @@ export default function Heroes() {
 
                       <div className="border border-zinc-800 rounded-2xl p-4 bg-black/40">
                         <p className="text-xs text-zinc-500 uppercase tracking-widest">
-                          Public Approval
+                          Aprobación publica
                         </p>
 
                         <p className="mt-2 text-blue-400 font-black">
@@ -273,7 +273,7 @@ export default function Heroes() {
 
                       <div className="border border-zinc-800 rounded-2xl p-4 bg-black/40">
                         <p className="text-xs text-zinc-500 uppercase tracking-widest">
-                          Clearance
+                          Autorización
                         </p>
 
                         <p className="mt-2 text-yellow-400 font-black">
@@ -288,7 +288,7 @@ export default function Heroes() {
 
                       <div className="flex justify-between mb-3">
                         <p className="text-xs uppercase tracking-widest text-zinc-500">
-                          Compound V Stability
+                          Estabilidad de Compuesto V
                         </p>
 
                         <p className="text-blue-400 text-sm font-bold">
@@ -314,7 +314,7 @@ export default function Heroes() {
                     />
 
                     <p className="text-xs uppercase tracking-[0.3em] text-zinc-600">
-                      Authorized Personnel Only
+                      Solo personal autorizado
                     </p>
 
                   </div>

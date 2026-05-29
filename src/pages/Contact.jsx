@@ -60,11 +60,11 @@ export default function Contact() {
           </p>
 
           <h1 className="text-6xl md:text-8xl font-black">
-            CONTACT
+            CONTACTO
           </h1>
 
           <p className="text-zinc-400 mt-8 max-w-3xl mx-auto text-lg">
-            Corporate communications, hero management and global operations.
+            Comunicación corporativa, gestión de héroes y operaciones globales.
           </p>
 
         </div>
@@ -79,20 +79,20 @@ export default function Contact() {
 
           {[
             {
-              title: "HEADQUARTERS",
-              text: "Vought Tower, New York City",
+              title: "SEDE",
+              text: "Torre Vought, Ciudad de Nueva York",
             },
             {
-              title: "HERO MANAGEMENT",
-              text: "Operational oversight for all active Supes",
+              title: "GESTIÓN DE HÉROES",
+              text: "Supervisión operativa de todos los supervisores en activo",
             },
             {
-              title: "EMERGENCY HOTLINE",
-              text: "24/7 national response network",
+              title: "LÍNEA DIRECTA DE EMERGENCIA",
+              text: "Red nacional de respuesta 24/7",
             },
             {
-              title: "PUBLIC RELATIONS",
-              text: "Media and corporate communications",
+              title: "RELACIONES PÚBLICAS",
+              text: "Medios y comunicación corporativa.",
             },
           ].map((item, i) => (
             <motion.div
@@ -132,11 +132,11 @@ export default function Contact() {
             <div className="mb-10">
 
               <p className="uppercase tracking-[0.4em] text-blue-400 text-sm mb-3">
-                Secure Transmission
+                Transmisión segura
               </p>
 
               <h2 className="text-4xl font-black">
-                CONTACT VOUGHT
+                CONTACTE A VOUGHT
               </h2>
 
             </div>
@@ -145,7 +145,7 @@ export default function Contact() {
 
               <div>
                 <label className="block mb-2 text-zinc-400">
-                  Full Name
+                  Nombre completo
                 </label>
 
                 <input
@@ -158,7 +158,7 @@ export default function Contact() {
 
               <div>
                 <label className="block mb-2 text-zinc-400">
-                  Email Address
+                Direccion de Email
                 </label>
 
                 <input
@@ -171,7 +171,7 @@ export default function Contact() {
 
               <div>
                 <label className="block mb-2 text-zinc-400">
-                  Department
+                  Departamento
                 </label>
 
                 <select
@@ -179,18 +179,18 @@ export default function Contact() {
                   required
                   className="w-full bg-black border border-zinc-800 rounded-xl px-5 py-4 outline-none focus:border-blue-500 transition"
                 >
-                  <option value="">Select Department</option>
-                  <option>Hero Management</option>
-                  <option>Public Relations</option>
-                  <option>Security Operations</option>
+                  <option value="">Seleccione departmento</option>
+                  <option>Gestion de heroes</option>
+                  <option>Relaciones publicas</option>
+                  <option>Operaciones de seguridad</option>
                   <option>Vought Studios</option>
-                  <option>Investor Relations</option>
+                  <option>Relaciones con inversores</option>
                 </select>
               </div>
 
               <div>
                 <label className="block mb-2 text-zinc-400">
-                  Message
+                  Mensaje
                 </label>
 
                 <textarea
@@ -206,12 +206,12 @@ export default function Contact() {
                 disabled={loading}
                 className="w-full bg-blue-500 hover:bg-blue-400 transition text-white font-black py-4 rounded-xl text-lg"
               >
-                {loading ? "TRANSMITTING..." : "SEND TRANSMISSION"}
+                {loading ? "TRANSMITTING..." : "ENVIAR COMUNICADO"}
               </button>
 
               {sent && (
                 <div className="border border-green-500/30 bg-green-500/10 rounded-xl p-4 text-green-400 text-center font-bold">
-                  TRANSMISSION SUCCESSFULLY SENT
+                 COMUNICADO ENVIADO CON ÉXITO
                 </div>
               )}
 

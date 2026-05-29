@@ -13,7 +13,7 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center scale-105"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop')",
+              "url('https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/2/AmazonStores/A1F83G8C2ARO7P/0a5eddf220d3cf7a1d9520d9e6fda782.w3000.h1593.jpg')",
           }}
         />
 
@@ -58,7 +58,7 @@ export default function Home() {
       
 
           <h1 className="text-6xl md:text-8xl font-black leading-none tracking-tight">
-            WE PROTECT
+            NOSOTROS PROTEGEMOS
             <span className="block text-blue-500">
               AMERICA
             </span>
@@ -82,7 +82,7 @@ export default function Home() {
               px-8 py-4 rounded-xl font-bold tracking-wide
               "
             >
-              ENTER VOUGHT+
+              ENTRA A VOUGHT+
             </button>
 
             <button
@@ -96,7 +96,7 @@ export default function Home() {
               px-8 py-4 rounded-xl font-bold tracking-wide
               "
             >
-              VIEW HERO DOSSIER
+              EXPEDIENTE DE HEROES
             </button>
 
           </div>
@@ -116,10 +116,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8 px-6 py-14 text-center relative z-10">
 
           {[
-            ["99.7%", "National Stability"],
-            ["214", "Active Supes"],
-            ["43", "Global Operations"],
-            ["24/7", "Threat Monitoring"],
+            ["99.7%", "Estabilidad nacional"],
+            ["214", "Supes activos"],
+            ["43", "Operaciones globales"],
+            ["24/7", "Monitoreo de amenazas"],
           ].map((item, index) => (
             <motion.div
               key={index}
@@ -187,7 +187,7 @@ export default function Home() {
             />
 
             <p className="text-blue-400 uppercase tracking-[0.3em] text-sm mb-4">
-              Featured Hero
+              Héroe destacado
             </p>
 
             <h2 className="text-6xl font-black leading-none">
@@ -204,9 +204,9 @@ export default function Home() {
             <div className="mt-10 grid grid-cols-3 gap-4">
 
               {[
-                ["ACTIVE", "Status", "text-green-400"],
-                ["EXTREME", "Threat", "text-red-400"],
-                ["OMEGA", "Clearance", "text-blue-400"],
+                ["FALLECIDO", "Estado", "text-green-400"],
+                ["EXTREMA", "Amenaza", "text-red-400"],
+                ["OMEGA", "Autorización", "text-blue-400"],
               ].map((item, index) => (
                 <div
                   key={index}
@@ -251,11 +251,11 @@ export default function Home() {
             />
 
             <p className="text-blue-400 uppercase tracking-[0.3em] text-sm mb-4">
-              Vought News Network
+              Canal de noticias de Vought (VNN)
             </p>
 
             <h2 className="text-5xl font-black">
-              LATEST NEWS
+              ULTIMAS NOTICIAS
             </h2>
 
           </div>
@@ -263,9 +263,9 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
 
             {[
-              "VOUGHT REPORTA INCIDENTE FINAL Y REESTRUCTURACIÓN DE THE SEVEN",
-              "STARLIGHT ABANDONA OFICIALMENTE THE SEVEN",
-              "VOUGHT ACTIVA PROTOCOLOS DE EMERGENCIA",
+              "ROBERT SINGER ES CONFIRMADO COMO PRESIDENTE DE LOS ESTADOS UNIDOS",
+              "STAN EDGAR REGRESA COMO DIRECTOR EJECUTIVO INTERINO DE VOUGHT INTERNATIONAL",
+              "SE CONFIRMA LA MUERTE DE HOMELANDER TRAS ENFRENTAMIENTO FINAL TRANSMITIDO EN VIVO",
             ].map((title, index) => (
               <motion.div
                 key={index}
@@ -285,7 +285,7 @@ export default function Home() {
               >
 
                 <p className="text-xs uppercase tracking-[0.3em] text-zinc-500 mb-4">
-                  VNN Breaking
+                  Lo ultimo de VNN
                 </p>
 
                 <h3 className="text-xl font-black text-blue-400 uppercase">
@@ -293,8 +293,7 @@ export default function Home() {
                 </h3>
 
                 <p className="text-zinc-400 mt-4 leading-relaxed">
-                  Official statement released by Vought International regarding
-                  recent national security developments.
+                  Comunicado oficial emitido por Vought International en relación con los recientes acontecimientos en materia de seguridad nacional.
                 </p>
 
               </motion.div>
@@ -324,13 +323,13 @@ export default function Home() {
           />
 
           <p className="text-blue-400 uppercase tracking-[0.3em] text-sm mb-4">
-            Trusted By America
+            Confiados por Estados Unidos
           </p>
 
           <h2 className="text-5xl md:text-6xl font-black max-w-5xl mx-auto leading-tight">
-            THE FUTURE OF HUMANITY
+            EL FUTURO DE LA HUMANIDAD
             <span className="block text-blue-500">
-              IS SAFE WITH VOUGHT
+              ESTA SEGURO CON VOUGHT
             </span>
           </h2>
 

@@ -4,11 +4,11 @@ export default function News() {
       <div className="max-w-6xl mx-auto">
 
         <h1 className="text-5xl font-black mb-4">
-          News
+          NOTICIAS
         </h1>
 
         <p className="text-zinc-400 mb-12">
-          Vought News Network — Official Corporate Broadcast Feed
+          Canal de noticias de Vought (VNN) — Canal de transmisión corporativa oficial
         </p>
  
           {/* 76 */}

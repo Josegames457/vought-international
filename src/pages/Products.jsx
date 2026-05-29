@@ -7,28 +7,28 @@ const products = [
   {
     name: "V-PLE",
     image: "/products/vple.jpg",
-    category: "MAGAZINE",
-    status: "TOP SELLER",
+    category: "REVISTA",
+    status: "MEJOR VENTA",
     description:
-      "A weekly celebrity magazine focused on Supes, entertainment scandals and exclusive Vought coverage.",
+      "Una revista semanal de famosos centrada en superhéroes, escándalos del mundo del espectáculo y cobertura exclusiva de Vought.",
   },
 
   {
     name: "VOUGHT COMICS",
     image: "/products/voughtcomics.jpg",
     category: "COMICS",
-    status: "BEST RATED",
+    status: "MEJOR CLASIFICADOS",
     description:
-      "Official publisher of superhero comics based on The Seven and other Vought heroes.",
+      "Editorial oficial de cómics de superhéroes basados ​​en Los Siete y otros héroes de Vought.",
   },
 
   {
     name: "VOUGHT SPORTS",
     image: "/products/voughtsports.jpg",
     category: "SPORTS",
-    status: "LIMITED EDITION",
+    status: "EDICION LIMITADA",
     description:
-      "Sports magazine famous for the annual Super Swimsuit Spectacular issue.",
+      "Revista deportiva famosa por su edición anual Super Swimsuit Spectacular" ,
   },
 
   // MOVIES & TV
@@ -36,37 +36,37 @@ const products = [
   {
     name: "VOUGHT ENTERTAINMENT TELEVISION",
     image: "/products/vet.jpg",
-    category: "TV CHANNEL",
-    status: "LIVE",
+    category: "CANAL DE TELEVISIÓN",
+    status: "EN VIVO",
     description:
-      "Fashion, celebrity and entertainment news network dedicated to modern hero culture.",
+      "Red de noticias sobre moda, famosos y entretenimiento dedicada a la cultura del héroe moderno.",
   },
 
   {
     name: "VOUGHT KIDS",
     image: "/products/voughtkids.jpg",
-    category: "KIDS CHANNEL",
-    status: "SAFE FOR KIDS",
+    category: "CANAL INFANTIL",
+    status: "SEGURO PARA NIÑOS",
     description:
-      "Educational preschool entertainment featuring Vought mascots and young Supes.",
+      "Entretenimiento educativo preescolar con las mascotas de Vought y jóvenes superhéroes.",
   },
 
   {
     name: "VOUGHT NEWS NETWORK",
     image: "/products/vnn.jpg",
-    category: "NEWS",
-    status: "24/7 LIVE",
+    category: "NOTICIAS",
+    status: "EN VIVO 24/7",
     description:
-      "Official Vought news network covering hero activity, national security and global events.",
+      "Red oficial de noticias de Vought que cubre la actividad de los héroes, la seguridad nacional y los acontecimientos mundiales.",
   },
 
   {
     name: "VOUGHT STUDIOS",
     image: "/products/voughtstudios.jpg",
-    category: "MOVIE STUDIO",
-    status: "BLOCKBUSTER",
+    category: "ESTUDIO DE PELICULAS",
+    status: "ÉXITO DE TAQUILLA",
     description:
-      "Film studio behind Dawn of the Seven, Invisible Force and other superhero productions.",
+      "Estudio cinematográfico responsable de películas como Dawn of the Seven, Invisible Force y otras producciones de superhéroes.",
   },
 
 
@@ -74,36 +74,36 @@ const products = [
     name: "VOUGHT+",
     image: "/products/voughtplus.jpg",
     category: "STREAMING",
-    status: "MOST POPULAR",
+    status: "MAS POPULAR",
     description:
-      "Premium streaming platform with superhero movies, series and exclusive Vought content.",
+      "Plataforma de streaming premium con películas y series de superhéroes, además de contenido exclusivo de Vought.",
   },
 
   {
     name: "VOUGHTOONS",
     image: "/products/voughtoons.jpg",
     category: "CARTOONS",
-    status: "FAMILY FAVORITE",
+    status: "FAVORITOS DE FAMILIA",
     description:
-      "Animated cartoon universe starring iconic heroes and Vought characters.",
+      "Universo de dibujos animados protagonizado por héroes icónicos y personajes de Vought.",
   },
 
   {
     name: "VSPN",
     image: "/products/vspn.jpg",
-    category: "SPORTS CHANNEL",
-    status: "LIVE SPORTS",
+    category: "CANAL DE DEPORTES",
+    status: "DEPORTES EN VIVO",
     description:
-      "24-hour sports network covering hero competitions and national sporting events.",
+      "Canal deportivo 24 horas que cubre competiciones de héroes y eventos deportivos nacionales.",
   },
 
   {
     name: "VTV: TELEVISION FOR WOMEN",
     image: "/products/vtv.jpg",
-    category: "TV CHANNEL",
-    status: "TRENDING",
+    category: "TCANAL DE TELEVISIÓN",
+    status: "TENDENCIA",
     description:
-      "Lifestyle and drama programming targeted toward female audiences.",
+      "Programación sobre estilo de vida y drama dirigida al público femenino.",
   },
 
 
@@ -113,20 +113,20 @@ const products = [
   {
     name: "VOUGHT MUSIC GROUP",
     image: "/products/vmg.jpg",
-    category: "MUSIC COMPANY",
-    status: "PLATINUM",
+    category: "COMPAÑIA DE MUSICA",
+    status: "PLATINO",
     description:
-      "Entertainment label behind multiple Vought music productions and viral hits.",
+      "Sello discográfico responsable de múltiples producciones musicales y éxitos virales de Vought.",
   },
 
 
   {
     name: "VOUGHTIFY",
     image: "/products/voughtify.jpg",
-    category: "STREAMING MUSIC",
-    status: "MOST STREAMED",
+    category: "SERVICIO DE STREAMING DE MUSICA",
+    status: "MAS TRANSMITIDO",
     description:
-      "Music streaming service featuring official hero soundtracks and exclusive releases.",
+      "Servicio de música en streaming con bandas sonoras oficiales de los héroes y lanzamientos exclusivos.",
   },
 
   // GAMING
@@ -134,19 +134,19 @@ const products = [
   {
     name: "THE MIDDLE PASSAGE",
     image: "/products/middlepassage.jpg",
-    category: "VIDEO GAME",
-    status: "UNRELEASED",
+    category: "VIDEOJUEGO",
+    status: "NO LANZADO",
     description:
-      "Upcoming narrative game featuring A-Train in a historical action storyline.",
+      "Próximo juego narrativo protagonizado por A-Train en una historia de acción histórica.",
   },
 
   {
     name: "TOURNAMENT OF HEROES",
     image: "/products/tournament.jpg",
-    category: "FIGHTING GAME",
-    status: "MULTIPLAYER",
+    category: "JUEGO DE PELEAS",
+    status: "MULTIJUGADOR",
     description:
-      "Competitive fighting game starring members of The Seven and Payback.",
+      "Juego de lucha competitivo protagonizado por miembros de The Seven y Payback.",
   },
 
 
@@ -155,37 +155,37 @@ const products = [
   {
     name: "A-TRAIN COMIC CON 2016 LIMITED EDITION",
     image: "/products/atraintoy.jpg",
-    category: "COLLECTIBLE",
-    status: "LIMITED",
+    category: "COLLECIONABLE",
+    status: "LIMITADO",
     description:
-      "Rare Comic Con exclusive A-Train collectible figure released in 2016.",
+      "Figura coleccionable exclusiva de A-Train, rara y lanzada en la Comic Con de 2016.",
   },
 
   {
     name: "EZEKIEL TOY",
     image: "/products/ezekieltoy.jpg",
-    category: "TOY",
-    status: "FAITH APPROVED",
+    category: "JUGUETE",
+    status: "FE APROBADA",
     description:
-      "Official Ezekiel action figure distributed through Samaritan's Embrace.",
+      "Figura de acción oficial de Ezequiel distribuida por Samaritan's Embrace.",
   },
 
   {
     name: "JR. SEVEN KUDDLE BUDDIEZ",
     image: "/products/kuddlebuddiez.jpg",
-    category: "PLUSHIES",
-    status: "KIDS FAVORITE",
+    category: "PELUCHES",
+    status: "FAVORITO DE LOS NIÑOS",
     description:
-      "Soft plush toy collection inspired by members of The Seven.",
+      "Colección de peluches suaves inspirados en los miembros de Los Siete.",
   },
 
   {
     name: "THE SEVEN ACTION FIGURES",
     image: "/products/actionfigures.jpg",
-    category: "ACTION FIGURES",
-    status: "COLLECTOR SERIES",
+    category: "FIGURAS DE ACCION",
+    status: "SERIE DE COLECCIONISTA",
     description:
-      "Premium action figure line featuring every member of The Seven.",
+      "Línea de figuras de acción premium que incluye a todos los miembros de Los Siete.",
   },
 
   // BOOKS
@@ -193,28 +193,28 @@ const products = [
   {
     name: "DEEPER",
     image: "/products/deeper.jpg",
-    category: "BOOK",
-    status: "BEST SELLER",
+    category: "LIBRO",
+    status: "MAS VENDIDO",
     description:
-      "Autobiography of The Deep and Cassandra Schwartz detailing their experiences.",
+      "Autobiografía de The Deep y Cassandra Schwartz donde detallan sus experiencias.",
   },
 
   {
     name: "VOUGHT COLORING BOOK OF HEROES",
     image: "/products/coloringbook.jpg",
-    category: "CHILDREN BOOK",
-    status: "FOR KIDS",
+    category: "LIBRO INFANTIL",
+    status: "PARA NIÑOS",
     description:
-      "Official Vought coloring book collection designed for young hero fans.",
+      "Colección oficial de libros para colorear de Vought, diseñada para jóvenes fans de los superhéroes.",
   },
 
   {
     name: "VOUGHT'S AMERICAN HISTORY",
     image: "/products/historybook.jpg",
-    category: "HISTORY",
-    status: "EDUCATIONAL",
+    category: "HISTORIA",
+    status: "EDUCACIONAL",
     description:
-      "Historical publication series documenting America through the lens of Vought heroes.",
+      "Serie de publicaciones históricas que documentan Estados Unidos a través de la mirada de los héroes de Vought.",
   },
 
 ];
@@ -237,16 +237,15 @@ export default function Products() {
           />
 
           <p className="uppercase tracking-[0.4em] text-blue-400 text-sm mb-4">
-            Vought Consumer Division
+            División de Consumidores de Vought
           </p>
 
           <h1 className="text-6xl md:text-8xl font-black">
-            PRODUCTS
+            PRODUCTOS
           </h1>
 
           <p className="text-zinc-400 max-w-3xl mx-auto mt-8 text-lg">
-            Official products, entertainment and services distributed under
-            Vought International.
+           Productos, entretenimiento y servicios oficiales distribuidos por Vought International.
           </p>
 
         </div>

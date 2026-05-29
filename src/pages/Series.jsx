@@ -84,11 +84,11 @@ export default function Series() {
           </p>
 
           <h1 className="text-6xl md:text-8xl font-black">
-            SERIES & MOVIES
+            SERIES Y PELICULAS
           </h1>
 
           <p className="text-zinc-400 mt-8 max-w-3xl mx-auto text-lg">
-            Official Vought entertainment catalog and cinematic universe archive.
+            Catálogo oficial de vought Entertainment y archivo del universo cinematográfico de Vought.
           </p>
 
         </div>
@@ -104,11 +104,11 @@ export default function Series() {
           <div className="mb-14">
 
             <h2 className="text-4xl font-black text-red-500">
-              REAL WORLD SERIES
+              SERIES REALES
             </h2>
 
             <p className="text-zinc-500 mt-3 uppercase tracking-[0.3em] text-sm">
-              Non-Vought productions
+              Producciones No-Vought
             </p>
 
           </div>
@@ -182,11 +182,11 @@ export default function Series() {
           <div className="mb-14">
 
             <h2 className="text-4xl font-black text-blue-400">
-              VOUGHT ORIGINALS
+              ORIGINALS DE VOUGHT
             </h2>
 
             <p className="text-zinc-500 mt-3 uppercase tracking-[0.3em] text-sm">
-              Official Vought entertainment properties
+              Propiedades oficiales de Vought Entertainment
             </p>
 
           </div>
