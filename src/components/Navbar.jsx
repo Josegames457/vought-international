@@ -17,9 +17,20 @@ export default function Navbar() {
           <Link to="/contact" className="hover:text-blue-400">Contacto</Link>
         </div>
 
-        <button className="bg-blue-500 hover:bg-blue-400 px-5 py-2 rounded-xl font-bold text-sm">
-          Vought+
-        </button>
+        <a
+  href="https://www.primevideo.com/dp/0T7K3Y96XGTPML7HIMLFCES3Y7?ref_=dvm_pds_tit_co_sw_s_g_mkw_p416-kw566747-cr572563-c&mrntrk=go_cmp-20653375856_adg-184916443181_ad-781952257417_kwd-692258484609_dev-c_ext-&gclsrc=aw.ds&gad_source=1&gad_campaignid=20653375856&gbraid=0AAAAAqSJhJk2jN-MLe5VKiyJQ70N0-Ai-&gclid=CjwKCAjw8uTQBhAdEiwAVvtJyhsRPTVDcDJsQV3xQfdhakB4b3sRj_ahwBZqj_QdyY3pQPHobYMqERoCYcMQAvD_BwE"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    bg-blue-600
+    hover:bg-blue-500
+    transition-all duration-300
+    px-5 py-2 rounded-xl
+    font-bold
+  "
+>
+  VOUGHT+
+</a>
 
       </div>
     </nav>
