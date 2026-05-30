@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const realWorld = [
   { title: "THE BOYS", image: "/series/theboys.jpg" },
@@ -115,57 +116,69 @@ export default function Series() {
 
           <div className="grid lg:grid-cols-3 gap-10">
 
-            {realWorld.map((show, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 60 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7 }}
-                whileHover={{ scale: 1.02 }}
-                className="
-                  bg-zinc-950
-                  border border-red-900/40
-                  rounded-3xl
-                  overflow-hidden
-                  hover:border-red-500
-                  transition-all duration-500
-                "
-              >
+            {realWorld.map((show, index) => {
 
-                <img
-                  src={show.image}
-                  alt={show.title}
-                  className="
-                    w-full
-                    h-[650px]
-                    object-cover
-                    transition-transform duration-700
-                    hover:scale-105
-                  "
-                />
+  const routes = {
+    "THE BOYS": "/theboys",
+    "GEN V": "/genv",
+    "THE BOYS: DIABOLICAL": "/diabolical",
+    "VOUGHT RISING": "/voughtrising",
+    "THE BOYS: MEXICO": "/theboysmexico",
+  };
 
-                <div className="p-6">
+  return (
+    <Link to={routes[show.title] || "#"} key={index}>
+      <motion.div
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        whileHover={{ scale: 1.02 }}
+        className="
+          bg-zinc-950
+          border border-red-900/40
+          rounded-3xl
+          overflow-hidden
+          hover:border-red-500
+          transition-all duration-500
+          cursor-pointer
+        "
+      >
 
-                  <div className="flex justify-between items-center mb-5">
+        <img
+          src={show.image}
+          alt={show.title}
+          className="
+            w-full
+            h-[650px]
+            object-cover
+            transition-transform duration-700
+            hover:scale-105
+          "
+        />
 
-                    <span className="text-red-500 text-xs uppercase tracking-[0.3em]">
-                      AMAZON ORIGINAL
-                    </span>
+        <div className="p-6">
 
-                    <span className="border border-red-500/40 text-red-400 text-xs px-3 py-1 rounded-full">
-                      LIVE ACTION
-                    </span>
+          <div className="flex justify-between items-center mb-5">
 
-                  </div>
+            <span className="text-red-500 text-xs uppercase tracking-[0.3em]">
+              AMAZON ORIGINAL
+            </span>
 
-                  <h3 className="text-3xl font-black">
-                    {show.title}
-                  </h3>
+            <span className="border border-red-500/40 text-red-400 text-xs px-3 py-1 rounded-full"> {show.title === "THE BOYS: DIABOLICAL" ? "ANIMATED" : "LIVE ACTION"} </span>
 
-                </div>
+          </div>
 
-              </motion.div>
-            ))}
+          <h3 className="text-3xl font-black">
+            {show.title}
+          </h3>
+
+        </div>
+
+      </motion.div>
+    </Link>
+  );
+
+})}
 
           </div>
 

@@ -73,32 +73,35 @@ export default function Home() {
           {/* BUTTONS */}
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
 
-            <button
-              className="
-              bg-blue-600 hover:bg-blue-500
-              transition-all duration-500
-              hover:scale-105
-              hover:shadow-[0_0_40px_rgba(59,130,246,0.5)]
-              px-8 py-4 rounded-xl font-bold tracking-wide
-              "
-            >
-              ENTRA A VOUGHT+
-            </button>
+           <a
+  href="/series"
+  className="
+  inline-block
+  bg-blue-600 hover:bg-blue-500
+  transition-all duration-500
+  hover:scale-105
+  hover:shadow-[0_0_40px_rgba(59,130,246,0.5)]
+  px-8 py-4 rounded-xl font-bold tracking-wide
+  "
+>
+  ENTRA A VOUGHT+
+</a>
 
-            <button
-              className="
-              border border-zinc-700
-              hover:border-blue-500
-              hover:text-blue-400
-              hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]
-              transition-all duration-500
-              hover:scale-105
-              px-8 py-4 rounded-xl font-bold tracking-wide
-              "
-            >
-              EXPEDIENTE DE HEROES
-            </button>
-
+            <a
+  href="/heroes"
+  className="
+  inline-block
+  border border-zinc-700
+  hover:border-blue-500
+  hover:text-blue-400
+  hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]
+  transition-all duration-500
+  hover:scale-105
+  px-8 py-4 rounded-xl font-bold tracking-wide
+  "
+>
+  EXPEDIENTE DE HEROES
+</a>
           </div>
 
         </motion.div>
@@ -161,7 +164,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
           >
             <img
-              src="/heroes/homelander.jpg"
+              src="/heroes/deadhomelander.jpg"
               alt="Homelander"
               className="
               w-full h-[750px]
@@ -196,7 +199,7 @@ export default function Home() {
 
             <p className="text-zinc-300 mt-8 text-lg leading-relaxed">
               Reconocido mundialmente como el protector definitivo de la nación,
-              Homelander lidera The Seven y representa el máximo nivel de poder
+              Homelander lidero a Los Siete y represento el máximo nivel de poder
               desarrollado por Vought International.
             </p>
 
