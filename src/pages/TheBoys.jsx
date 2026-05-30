@@ -84,7 +84,6 @@ export default function TheBoys() {
 
   return (
     <div className="bg-[#090909] text-white min-h-screen overflow-hidden relative">
-        {/* FILM GRAIN */}
 <div
   className="
     pointer-events-none
@@ -98,12 +97,10 @@ export default function TheBoys() {
   }}
 />
 
-{/* RED GLOW */}
 <div className="fixed top-[-300px] left-[-300px] w-[900px] h-[900px] bg-red-700/20 blur-[180px] rounded-full"></div>
 
 <div className="fixed bottom-[-300px] right-[-300px] w-[900px] h-[900px] bg-red-900/10 blur-[180px] rounded-full"></div>
 
-      {/* BACKGROUND */}
       <div className="fixed inset-0 -z-10">
 
         <img
@@ -118,7 +115,6 @@ export default function TheBoys() {
 
       </div>
 
-      {/* HERO */}
       <section className="relative px-6 pt-32 pb-20">
 
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
@@ -140,7 +136,6 @@ export default function TheBoys() {
             "
           />
 
-          {/* INFO */}
           <div>
 
             <span className="text-red-500 uppercase tracking-[0.4em] text-sm">
@@ -168,7 +163,6 @@ export default function TheBoys() {
               narrativa global.
             </p>
 
-            {/* BUTTONS */}
             <div className="flex gap-4 mt-10">
 
               <button className="bg-red-600 hover:bg-red-500 transition-all px-8 py-4 rounded-xl font-black">
@@ -181,7 +175,6 @@ export default function TheBoys() {
 
             </div>
 
-            {/* SEASONS */}
             <div className="flex gap-3 mt-14 flex-wrap">
 
               {seasons.map((item, index) => (
@@ -211,7 +204,6 @@ export default function TheBoys() {
 
       </section>
 
-      {/* EPISODES */}
       <section className="px-6 pb-24">
 
         <div className="max-w-7xl mx-auto">

@@ -123,13 +123,13 @@ export default function Heroes() {
   return (
     <div className="bg-black text-white min-h-screen overflow-hidden">
 
-      {/* HEADER */}
+    
       <section className="relative py-32 px-6 border-b border-zinc-900 overflow-hidden">
 
-        {/* GLOW */}
+        
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-blue-600/10 blur-[180px] rounded-full"></div>
 
-        {/* WATERMARK */}
+        
         <p className="absolute inset-0 flex items-center justify-center text-[250px] font-black opacity-[0.03]">
           HEROES
         </p>
@@ -159,7 +159,7 @@ export default function Heroes() {
 
       </section>
 
-      {/* HERO GRID */}
+      
       <section className="py-24 px-6">
 
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10">
@@ -184,12 +184,12 @@ export default function Heroes() {
               "
             >
 
-              {/* BACKGROUND GLOW */}
+              
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition duration-700"></div>
 
               <div className="grid md:grid-cols-2">
 
-                {/* IMAGE */}
+                
                 <div className="relative overflow-hidden">
 
                   <img
@@ -205,10 +205,10 @@ export default function Heroes() {
                     "
                   />
 
-                  {/* DARK OVERLAY */}
+                  
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
 
-                  {/* RANK */}
+                  
                   <div className="absolute top-5 left-5 backdrop-blur-md bg-black/50 border border-white/10 px-4 py-2 rounded-xl">
                     <p className="text-xs text-zinc-400 uppercase tracking-widest">
                       Ranking
@@ -221,7 +221,7 @@ export default function Heroes() {
 
                 </div>
 
-                {/* INFO */}
+                
                 <div className="p-8 flex flex-col justify-between relative z-10">
 
                   <div>
@@ -238,7 +238,7 @@ export default function Heroes() {
                       {hero.description}
                     </p>
 
-                    {/* STATS */}
+                    
                     <div className="mt-8 grid grid-cols-2 gap-4">
 
                       <div className="border border-zinc-800 rounded-2xl p-4 bg-black/40">
@@ -283,7 +283,7 @@ export default function Heroes() {
 
                     </div>
 
-                    {/* STABILITY */}
+                    
                     <div className="mt-8">
 
                       <div className="flex justify-between mb-3">
@@ -304,7 +304,7 @@ export default function Heroes() {
 
                   </div>
 
-                  {/* FOOTER */}
+                  
                   <div className="mt-10 pt-6 border-t border-zinc-800 flex justify-between items-center">
 
                     <img

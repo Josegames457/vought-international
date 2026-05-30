@@ -11,7 +11,7 @@ export default function News() {
           Canal de noticias de Vought (VNN) — Canal de transmisión corporativa oficial
         </p>
  
-          {/* 76 */}
+          
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               ROBERT SINGER ES CONFIRMADO COMO PRESIDENTE DE LOS ESTADOS UNIDOS
@@ -23,7 +23,7 @@ Su administración inicia en medio de una de las etapas más inestables en la hi
             </p>
           </div>
 
-          {/* 75 */}
+          
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               STAN EDGAR REGRESA COMO DIRECTOR EJECUTIVO INTERINO DE VOUGHT INTERNATIONAL
@@ -35,7 +35,7 @@ Edgar retoma el control de la compañía con el objetivo de estabilizar operacio
             </p>
           </div>
 
-          {/* 74 */}
+          
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               SE CONFIRMA LA MUERTE DE HOMELANDER TRAS ENFRENTAMIENTO FINAL TRANSMITIDO EN VIVO
@@ -48,7 +48,6 @@ Su caída marca el colapso del liderazgo absoluto de Vought y el fin de una era 
             </p>
           </div>
 
-          {/* 73 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               VOUGHT CONFIRMA LA DISOLUCIÓN OFICIAL DE THE SEVEN            </h2>
@@ -58,8 +57,7 @@ La medida fue comunicada directamente al miembro conocido como The Deep, quien i
 Con esta decisión, Vought entra en una nueva etapa en la que el control operativo queda completamente centralizado bajo la figura de Homelander, eliminando la necesidad de un equipo formal de Supes.
             </p>
           </div>
-
-          {/* 72 */}
+          
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               VOUGHT STUDIOS INVESTIGA INCIDENTE DURANTE PROYECCIÓN PRIVADA CON HOMELANDER
@@ -72,7 +70,6 @@ El incidente ha encendido alarmas sobre el uso de propaganda religiosa dentro de
             </p>
           </div>
 
-          {/* 71 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               HOMELANDER IMPONE UNA REESTRUCTURACIÓN SIN PRECEDENTES DEL GOBIERNO DESDE EL DESPACHO OVAL            </h2>
@@ -83,7 +80,6 @@ Ashley Barrett asumió de facto el control del gobierno federal, en medio de una
             </p>
           </div>
 
-          {/* 70 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               INCIDENTE EN GOD U: REUNIÓN MASIVA TERMINA EN CAOS CONTROLADO
@@ -95,7 +91,6 @@ Vought ha reiterado su compromiso con la transparencia y la seguridad del progra
             </p>
           </div>
 
-          {/* 69 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               PROGRAMA ODESSA BAJO INVESTIGACIÓN TRAS FILTRACIONES NO AUTORIZADAS
@@ -107,7 +102,6 @@ Se ha instado al público a ignorar especulaciones y confiar únicamente en los 
             </p>
           </div>
 
-          {/* 68 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               SUPES DE GOD U RETORNAN BAJO “PROGRAMAS DE REINTEGRACIÓN”</h2>
@@ -118,7 +112,6 @@ El decano Cipher destacó que la reintegración de estos jóvenes demuestra la e
             </p>
           </div>
 
-          {/* 67 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               UNIVERSIDAD GODOLKIN DECLARA ESTADO DE EMERGENCIA TRAS FUGA DE ELMLIRA            </h2>
@@ -129,7 +122,6 @@ Las autoridades han pedido a la población mantenerse en interiores mientras se 
             </p>
           </div>
 
-          {/* 66 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               GOD U REPORTA “INCIDENTE CONTROLADO” TRAS DISTURBIO EN SEMINARIO HEROICO
@@ -141,7 +133,6 @@ El decano Cipher afirmó que estos ejercicios son esenciales para identificar a 
             </p>
           </div>
 
-          {/* 65 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT CONFIRMA DESARTICULACIÓN DE GRUPO RESPONSABLE DEL ATAQUE A CATE DUNLAP
@@ -154,7 +145,6 @@ La organización ha expresado su profunda preocupación por la manipulación de 
             </p>
           </div>
 
-          {/* 64 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               HÉROES DE GOD U EVITAN “CRISIS INTERNA” DURANTE EJERCICIO DE OPTIMIZACIÓN            </h2>
@@ -165,7 +155,6 @@ A pesar de la intensidad del entrenamiento, los participantes lograron completar
             </p>
           </div>
 
-          {/* 63 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               INCIDENTE EN GOD U: ESTUDIANTE CATE DUNLAP HERIDA EN SUPUESTO ATAQUE TERRORISTA
@@ -178,7 +167,6 @@ El decano Cipher condenó el ataque, afirmando que este tipo de acciones “demu
             </p>
           </div>
 
-          {/* 62 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT CONFIRMA “FUGA DE TERRORISTAS SUPES” Y REAFIRMA SEGURIDAD NACIONAL            </h2>
@@ -189,7 +177,6 @@ Las autoridades han pedido a la población mantener vigilancia y reportar cualqu
             </p>
           </div>
 
-          {/* 61 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               GOD U DA INICIO A UN NUEVO AÑO ACADÉMICO BAJO NUEVA ADMINISTRACIÓN</h2>
@@ -201,7 +188,6 @@ Cipher cerró su discurso afirmando que este año “no habrá espacio para la d
             </p>
           </div>
 
-          {/* 60 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               CRISIS NACIONAL SE AGRAVA TRAS DETENCIONES MASIVAS Y OPERACIONES SUPES</h2>
@@ -213,7 +199,6 @@ La administración ha reiterado que todas las acciones forman parte de una opera
             </p>
           </div>
 
-          {/* 59 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               HOMELANDER DECLARA INICIO DE UNA “NUEVA ERA” PARA LOS SUPES
@@ -226,7 +211,6 @@ Al cierre de la transmisión, Homelander advirtió que cualquier amenaza contra 
             </p>
           </div>
 
-          {/* 58 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               CERTIFICACIÓN PRESIDENCIAL DE ROBERT SINGER EN MEDIO DE PROTESTAS NACIONALES</h2>
@@ -238,7 +222,6 @@ El clima político se mantiene altamente inestable, mientras el nuevo gobierno e
             </p>
           </div>
 
-          {/* 57 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               CAÍDA DE APOYO A STARLIGHT TRAS ESCÁNDALOS MEDIÁTICOS</h2>
@@ -250,7 +233,6 @@ La situación ha intensificado la división social en torno a la figura de los s
             </p>
           </div>
 
-          {/* 56 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               PROGRAMA “HOMEBOY” PRESENTA A RYAN COMO NUEVA FIGURA SUPES</h2>
@@ -262,7 +244,6 @@ Homelander ha aparecido junto a su hijo en múltiples eventos promocionales, ref
             </p>
           </div>
 
-          {/* 55 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               PRESIDENCIA DE SINGER DECLARA ESTADO DE EMERGENCIA TRAS ESCALADA DE VIOLENCIA
@@ -275,8 +256,6 @@ La medida ha sido recibida con apoyo de sectores moderados, aunque ha generado p
             </p>
           </div>
 
-
- {/* 54 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               INCIDENTE EN EVENTO VOUGHT DEJA VARIOS MUERTOS Y AUMENTA TENSIONES POLÍTICAS
@@ -289,7 +268,6 @@ El caso ha intensificado el debate nacional sobre la creciente radicalización s
             </p>
           </div>
 
-          {/* 53 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               CAMPAÑA PRESIDENCIAL DE ROBERT SINGER Y VICTORIA NEUMAN GANA IMPULSO
@@ -302,7 +280,6 @@ Analistas políticos advierten que la polarización en torno a la figura de Home
             </p>
           </div>
 
-          {/* 52 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               DISTURBIOS MASIVOS TRAS EL VEREDICTO DE HOMELANDER
@@ -315,7 +292,6 @@ El gobierno federal ha solicitado a la población evitar aglomeraciones y manten
             </p>
           </div>
 
-          {/* 51 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               VEREDICTO DEL CASO HOMELANDER: NO CULPABLE            </h2>
@@ -327,7 +303,6 @@ El propio Homelander no emitió declaraciones públicas tras el veredicto, aunqu
             </p>
           </div>
 
-          {/* 50 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               HOMELANDER ENFRENTA JUICIO FEDERAL POR ASESINATO DE CIVILES
@@ -340,7 +315,6 @@ El caso continúa en desarrollo, mientras el país permanece dividido en uno de 
             </p>
           </div>
 
-          {/* 49 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               VOUGHT RECONOCE A NUEVOS GUARDIANES DE GODOLKIN
@@ -353,7 +327,6 @@ Mientras tanto, los estudiantes implicados en los disturbios permanecen bajo inv
             </p>
           </div>
 
-          {/* 48 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               GODOLKIN UNIVERSITY ENFRENTA DISTURBIOS GRAVES TRAS INCIDENTE MASIVO EN CAMPUS
@@ -366,7 +339,6 @@ Vought ha declarado que los responsables de los disturbios serán procesados con
             </p>
           </div>
 
-          {/* 47 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               FALLAS MÉDICAS EN POLARITY DURANTE ENTREVISTA PÚBLICA
@@ -380,7 +352,6 @@ Su hijo, el estudiante Andre Anderson, ha sido visto acompañando al personal m�
             </p>
           </div>
 
-          {/* 46 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               PROTESTAS Y TENSIÓN EN GODOLKIN DURANTE VISITA DE FIGURA POLÍTICA
@@ -393,7 +364,6 @@ Testigos reportaron la presencia de estudiantes de alto perfil intentando restau
             </p>
           </div>
 
-          {/* 45 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               GODOLKIN UNIVERSITY DESTACA EL RENDIMIENTO DE SUS ESTUDIANTES EN ENTREVISTA OFICIAL
@@ -406,7 +376,6 @@ La entrevista también reafirmó la narrativa oficial sobre la muerte de Golden 
             </p>
           </div>
 
-          {/* 44 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               INCIDENTE EN FESTIVAL ESTUDIANTIL DE GODOLKIN GENERA POLÉMICA            </h2>
@@ -418,7 +387,6 @@ Sin embargo, testigos anónimos han planteado preguntas sobre el origen del inci
             </p>
           </div>
 
-          {/* 43 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               GODOLKIN UNIVERSITY RINDE HOMENAJE A PROFESSOR BRINKERHOFF EN GALA MEMORIAL
@@ -431,7 +399,6 @@ El ambiente general fue descrito como festivo y esperanzador, con el objetivo de
             </p>
           </div>
 
-          {/* 42 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               REESTRUCTURACIÓN DEL RANKING EN GODOLKIN UNIVERSITY TRAS INCIDENTE DE GOLDEN BOY
@@ -444,7 +411,6 @@ Representantes de Vought aseguran que este ajuste en el ranking es parte del pro
             </p>
           </div>
 
-          {/* 41 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               TRAGEDIA EN GODOLKIN: EL ESTUDIANTE CONOCIDO COMO GOLDEN BOY PROTAGONIZA INCIDENTE MORTAL            </h2>
@@ -457,7 +423,6 @@ Vought ha iniciado una investigación interna para esclarecer los hechos, aunque
             </p>
           </div>
 
-          {/* 40 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               NUEVA GENERACIÓN DE SUPES INGRESA A GODOLKIN UNIVERSITY
@@ -470,7 +435,6 @@ Fuentes dentro de Vought aseguran que el nivel de talento observado en esta coho
             </p>
           </div>
 
-          {/* 39 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT REPORTA INCIDENTE FINAL Y REESTRUCTURACIÓN DE THE SEVEN
@@ -482,8 +446,6 @@ Vought ha declarado oficialmente el fin de la crisis inmediata, aunque reconoce 
             </p>
           </div>
 
- 
-          {/* 38 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               CRISIS NACIONAL TRAS CONFIRMACIÓN DE SOLDIER BOY COMO SUPE TERRORISTA
@@ -495,7 +457,6 @@ Homelander ha asegurado que la prioridad es neutralizar la amenaza antes de que 
             </p>
           </div>
 
-          {/* 37 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               STARLIGHT ABANDONA OFICIALMENTE THE SEVEN            </h2>
@@ -506,7 +467,6 @@ Vought ha respondido calificando la decisión como decepcionante pero irrelevant
             </p>
           </div>
 
-          {/* 36 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT ACTIVA PROTOCOLOS DE EMERGENCIA ANTE ACTIVIDAD DE SUPE TERRORISTA
@@ -518,7 +478,6 @@ La compañía ha pedido a los ciudadanos evitar zonas de conflicto y confiar en 
             </p>
           </div>
 
-          {/* 35 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               STORMFRONT CONFIRMADA MUERTA TRAS INCIDENTE NO ESPECIFICADO
@@ -530,7 +489,6 @@ Homelander expresó públicamente su dolor por la pérdida, describiendo a Storm
             </p>
           </div>
 
-          {/* 34 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               STAN EDGAR SE RETIRA TEMPORALMENTE DE VOUGHT INTERNATIONAL            </h2>
@@ -541,7 +499,6 @@ La compañía ha asegurado que no existen riesgos internos y que la estructura c
             </p>
           </div>
 
-          {/* 33 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               SUPERSÓNICO ENCONTRADO MUERTO EN INCIDENTE RELACIONADO CON SOBREDOSIS            </h2>
@@ -552,7 +509,6 @@ Fuentes cercanas a la organización han señalado que el equipo está profundame
             </p>
           </div>
 
-          {/* 32 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               STARLIGHT PUBLICA MENSAJE CONTROVERTIDO Y DESATA DEBATE NACIONAL
@@ -565,7 +521,6 @@ Vought ha respondido afirmando que investigará las declaraciones y que se trata
             </p>
           </div>
 
-          {/* 31 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT PRESENTA EL PROGRAMA V24 COMO AVANCE MÉDICO Y DEFENSIVO            </h2>
@@ -576,7 +531,6 @@ Stan Edgar describió el proyecto como el futuro de la seguridad global, mientra
             </p>
           </div>
 
-          {/* 30 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT REPORTA INCIDENTE AISLADO CON SUPE DESCONOCIDO EN MIDTOWN            </h2>
@@ -587,7 +541,6 @@ La compañía ha pedido a la población mantener la calma mientras las agencias 
             </p>
           </div>
 
-          {/* 29 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT ANUNCIA COOPERACIÓN TOTAL CON SUPERVISIÓN GUBERNAMENTAL            </h2>
@@ -598,7 +551,6 @@ La congresista Victoria Neuman expresó su apoyo a la iniciativa, destacando la 
             </p>
           </div>
 
-          {/* 28 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT CELEBRA EL ESTRENO DE “DAWN OF THE SEVEN”
@@ -611,7 +563,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
           </div>
 
  
-           {/* 27 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               HOMELANDER REAFIRMA EL LIDERAZGO DE THE SEVEN EN TRANSMISIÓN NACIONAL
@@ -623,7 +574,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 26 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               VOUGHT ANUNCIA QUE STORMFRONT FUE NEUTRALIZADA Y STARMIGHT REGRESA A THE SEVEN
@@ -636,7 +586,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 25 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               STARLIGHT SE UNE OFICIALMENTE A THE SEVEN EN UNA CEREMONIA HISTÓRICA
@@ -647,7 +596,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 24 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               ATAQUE DURANTE AUDIENCIA EN EL CONGRESO DEJA MÚLTIPLES VÍCTIMAS
@@ -659,7 +607,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 23 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               INVESTIGACIÓN FEDERAL SE INICIA CONTRA VOUGHT INTERNATIONAL
@@ -671,7 +618,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 22 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               STORMFRONT SE UNE OFICIALMENTE A THE SEVEN
@@ -683,7 +629,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 21 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               VOUGHT PRESENTA PROTOCOLO DE INTEGRACIÓN MILITAR PARA SUPES
@@ -694,7 +639,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 20 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               THE DEEP ES ARRESTADO TRAS INCIDENTE EN PARQUE ACUÁTICO
@@ -704,7 +648,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 19 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               A-TRAIN SE ENCUENTRA EN ESTADO CRÍTICO TRAS INCIDENTE DURANTE MISIÓN
@@ -714,7 +657,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 18 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               FUNERAL NACIONAL PARA TRANSLUCENT; HOMELANDER PROMETE JUSTICIA
@@ -725,7 +667,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 17 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase">
               VOUGHT CONFIRMA EL AUMENTO DE AMENAZAS TERRORISTAS CON SUPES
@@ -737,7 +678,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
           </div>
 
         <div className="space-y-10">
-          {/* 16 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT INTERNATIONAL CONFIRMA ESTABILIDAD GLOBAL BAJO LA PROTECCIÓN DE THE SEVEN
@@ -749,7 +689,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 15 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT INTERNATIONAL NIEGA ESPECULACIONES SOBRE PROGRAMAS ILEGALES
@@ -761,7 +700,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 14 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               STARLIGHT REPORTA INCIDENTE DURANTE OPERACIÓN NOCTURNA
@@ -774,7 +712,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 13 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               CAMPAÑA OCEANLAND DESTACA EL COMPROMISO DE VOUGHT CON LA VIDA MARINA
@@ -786,7 +723,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 12 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               INCIDENTE EN EL ATLÁNTICO: INTERVENCIÓN DE THE SEVEN EVITA MAYOR CATASTRÓFE
@@ -799,7 +735,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 11 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT INTERNATIONAL PRESENTA SU VISIÓN GLOBAL DE SEGURIDAD
@@ -812,7 +747,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 10 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               DESAPARICIÓN DE TRANSLUCENT DURANTE MISIÓN CLASIFICADA
@@ -825,7 +759,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 9 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               STARLIGHT COMPLETA SU PRIMERA MISIÓN OFICIAL JUNTO A THE DEEP
@@ -839,7 +772,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 8 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               TRÁGICO ACCIDENTE DURANTE OPERACIÓN DE A-TRAIN
@@ -852,7 +784,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 7 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               STARLIGHT SE UNE OFICIALMENTE A THE SEVEN EN UNA CEREMONIA HISTÓRICA
@@ -865,7 +796,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 6 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               HOMELANDER: “BLACK NOIR ME ENSEÑÓ LO QUE SIGNIFICA SER UN VERDADERO HÉROE”
@@ -878,7 +808,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 5 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT ELOGIA LA ACTUACIÓN DE HOMELANDER TRAS LA CRISIS EN CRUZ CHEMICAL
@@ -891,7 +820,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 4 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               EXPLOSIÓN EN CRUZ CHEMICAL: VOUGHT CONFIRMA COLAPSO TOTAL DE LA INSTALACIÓN
@@ -905,7 +833,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 3 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               CRISIS EN CRUZ CHEMICAL: HOMELANDER LLEGA PRIMERO A LA ESCENA MIENTRAS CONTINÚA LA TOMA DE REHENES
@@ -919,7 +846,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 2 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               HOMELANDER SE UNE OFICIALMENTE A LA MISIÓN DE CONTENCIÓN EN CRUZ CHEMICAL JUNTO A BLACK NOIR
@@ -933,7 +859,6 @@ Durante la premiere, Homelander declaró ante la prensa que la producción repre
             </p>
           </div>
 
-          {/* 1 */}
           <div className="border border-zinc-800 rounded-2xl p-6">
             <h2 className="text-xl font-black text-blue-400 uppercase leading-relaxed">
               VOUGHT INTERNATIONAL PRESENTA OFICIALMENTE A HOMELANDER COMO EL NUEVO MIEMBRO DE THE SEVEN

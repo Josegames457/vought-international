@@ -41,7 +41,7 @@ export default function Contact() {
   return (
     <div className="bg-black text-white min-h-screen overflow-hidden">
 
-      {/* HERO */}
+    
 
       <section className="relative py-32 px-6 border-b border-zinc-900">
 
@@ -71,7 +71,7 @@ export default function Contact() {
 
       </section>
 
-      {/* INFO CARDS */}
+      
 
       <section className="py-24 px-6">
 
@@ -116,7 +116,7 @@ export default function Contact() {
 
       </section>
 
-      {/* CONTACT FORM */}
+      
 
       <section className="pb-32 px-6">
 
@@ -206,7 +206,7 @@ export default function Contact() {
                 disabled={loading}
                 className="w-full bg-blue-500 hover:bg-blue-400 transition text-white font-black py-4 rounded-xl text-lg"
               >
-                {loading ? "TRANSMITTING..." : "ENVIAR COMUNICADO"}
+                {loading ? "ENVIANDO..." : "ENVIAR COMUNICADO"}
               </button>
 
               {sent && (

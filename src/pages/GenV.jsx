@@ -42,12 +42,12 @@ export default function GenV() {
   return (
     <div className="bg-[#080b14] text-white min-h-screen overflow-hidden relative">
 
-      {/* CAMPUS GLOW */}
+      
       <div className="fixed top-[-250px] left-[-250px] w-[700px] h-[700px] bg-blue-500/20 blur-[160px] rounded-full"></div>
 
       <div className="fixed bottom-[-250px] right-[-250px] w-[700px] h-[700px] bg-yellow-400/10 blur-[160px] rounded-full"></div>
 
-      {/* BACKGROUND */}
+      
       <div className="fixed inset-0 -z-10">
 
         <img
@@ -62,12 +62,12 @@ export default function GenV() {
 
       </div>
 
-      {/* HERO */}
+      
       <section className="relative px-6 pt-32 pb-20">
 
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
-          {/* POSTER */}
+          
           <motion.img
             key={selectedSeason.poster}
             initial={{ opacity: 0, scale: 1.05 }}
@@ -84,7 +84,7 @@ export default function GenV() {
             "
           />
 
-          {/* INFO */}
+          
           <div>
 
             <span className="text-yellow-400 uppercase tracking-[0.4em] text-sm">
@@ -111,7 +111,7 @@ export default function GenV() {
               oscuros amenazan con destruir el campus.
             </p>
 
-            {/* BUTTONS */}
+            
             <div className="flex gap-4 mt-10 flex-wrap">
 
               <button className="
@@ -137,7 +137,7 @@ export default function GenV() {
 
             </div>
 
-            {/* SEASONS */}
+            
             <div className="flex gap-3 mt-14 flex-wrap">
 
               {seasons.map((item, index) => (
@@ -167,7 +167,7 @@ export default function GenV() {
 
       </section>
 
-      {/* EPISODES */}
+      
       <section className="px-6 pb-24">
 
         <div className="max-w-7xl mx-auto">

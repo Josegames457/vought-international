@@ -66,7 +66,6 @@ export default function Series() {
   return (
     <div className="bg-black text-white min-h-screen">
 
-      {/* HERO */}
 
       <section className="relative py-32 px-6 border-b border-zinc-900 overflow-hidden">
 
@@ -96,7 +95,6 @@ export default function Series() {
 
       </section>
 
-      {/* REAL WORLD */}
 
       <section className="py-24 px-6 border-b border-zinc-900">
 
@@ -186,7 +184,6 @@ export default function Series() {
 
       </section>
 
-      {/* VOUGHT CONTENT */}
 
       <section className="py-24 px-6">
 

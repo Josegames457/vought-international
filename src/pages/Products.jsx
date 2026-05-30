@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 
 const products = [
 
-  // COMICS & MAGAZINES
 
   {
     name: "V-PLE",
@@ -31,7 +30,6 @@ const products = [
       "Revista deportiva famosa por su edición anual Super Swimsuit Spectacular" ,
   },
 
-  // MOVIES & TV
 
   {
     name: "VOUGHT ENTERTAINMENT TELEVISION",
@@ -107,7 +105,6 @@ const products = [
   },
 
 
-  // MUSIC
 
 
   {
@@ -129,7 +126,6 @@ const products = [
       "Servicio de música en streaming con bandas sonoras oficiales de los héroes y lanzamientos exclusivos.",
   },
 
-  // GAMING
 
   {
     name: "THE MIDDLE PASSAGE",
@@ -150,7 +146,6 @@ const products = [
   },
 
 
-  // TOYS
 
   {
     name: "A-TRAIN COMIC CON 2016 LIMITED EDITION",
@@ -188,7 +183,6 @@ const products = [
       "Línea de figuras de acción premium que incluye a todos los miembros de Los Siete.",
   },
 
-  // BOOKS
 
   {
     name: "DEEPER",
@@ -223,7 +217,6 @@ export default function Products() {
   return (
     <div className="bg-black text-white min-h-screen">
 
-      {/* HEADER */}
       <section className="relative py-32 px-6 border-b border-zinc-900 overflow-hidden">
 
         <div className="absolute inset-0 bg-blue-500/5 blur-3xl"></div>
@@ -252,7 +245,6 @@ export default function Products() {
 
       </section>
 
-      {/* PRODUCTS GRID */}
       <section className="py-24 px-6">
 
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10">

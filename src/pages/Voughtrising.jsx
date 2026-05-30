@@ -24,11 +24,9 @@ export default function VoughtRising() {
   return (
     <div className="min-h-screen text-[#2b1d14] relative overflow-hidden bg-[#f5e6c8]">
 
-      {/* PAPER GLOW / VINTAGE LIGHT */}
       <div className="fixed top-[-200px] left-[-200px] w-[700px] h-[700px] bg-yellow-200/30 blur-[160px] rounded-full" />
       <div className="fixed bottom-[-200px] right-[-200px] w-[700px] h-[700px] bg-red-300/20 blur-[160px] rounded-full" />
 
-      {/* BACKGROUND TEXTURE */}
       <div className="fixed inset-0 -z-10 opacity-20">
         <img
           src={selectedSeason.poster}
@@ -37,11 +35,9 @@ export default function VoughtRising() {
         <div className="absolute inset-0 bg-[#f5e6c8]/80" />
       </div>
 
-      {/* HERO */}
       <section className="px-6 pt-32 pb-20">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
-          {/* POSTER */}
           <motion.img
             key={selectedSeason.poster}
             src={selectedSeason.poster}
@@ -56,7 +52,6 @@ export default function VoughtRising() {
             "
           />
 
-          {/* INFO */}
           <div>
 
             <span className="uppercase tracking-[0.5em] text-sm text-[#8b5e3c]">
@@ -67,7 +62,6 @@ export default function VoughtRising() {
               VOUGHT RISING
             </h1>
 
-            {/* TAGLINE (50s STYLE) */}
             <p className="uppercase tracking-[0.5em] text-sm text-[#6b4a33] mt-4">
               HEROISM • UNITY • PROGRESS • AMERICA
             </p>
@@ -77,7 +71,6 @@ export default function VoughtRising() {
               de la humanidad. Una visión perfecta de orden, patriotismo y progreso… cuidadosamente construida.
             </p>
 
-            {/* BUTTONS */}
             <div className="flex gap-4 mt-10 flex-wrap">
 
               <button className="
@@ -110,7 +103,6 @@ export default function VoughtRising() {
         </div>
       </section>
 
-      {/* EPISODES */}
       <section className="px-6 pb-24">
         <div className="max-w-6xl mx-auto">
 

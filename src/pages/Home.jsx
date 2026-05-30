@@ -5,10 +5,10 @@ export default function Home() {
     <div className="bg-black text-white min-h-screen overflow-hidden">
 
 
-      {/* HERO SECTION */}
+      
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
 
-        {/* BACKGROUND */}
+        
         <div
           className="absolute inset-0 bg-cover bg-center scale-105"
           style={{
@@ -17,27 +17,27 @@ export default function Home() {
           }}
         />
 
-        {/* OVERLAYS */}
+        
         <div className="absolute inset-0 bg-black/75"></div>
 
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/20 via-black/40 to-black"></div>
 
-        {/* BLUE GLOW */}
+        
         <div className="absolute top-[-200px] w-[900px] h-[900px] bg-blue-600/20 blur-[200px] rounded-full"></div>
 
-        {/* WATERMARK */}
+        
         <p className="absolute text-[300px] font-black opacity-[0.03] tracking-tight">
           VOUGHT
         </p>
 
-        {/* VOUGHT SYMBOL */}
+        
         <img
           src="/logos/vought-symbol.png"
           alt="Vought"
           className="absolute opacity-[0.06] w-[900px]"
         />
 
-        {/* CONTENT */}
+        
         <motion.div
           initial={{ opacity: 0, y: 70 }}
           animate={{ opacity: 1, y: 0 }}
@@ -45,7 +45,7 @@ export default function Home() {
           className="relative z-10 text-center px-6 max-w-5xl"
         >
 
-          {/* LOGO */}
+          
 <motion.img
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
@@ -70,7 +70,7 @@ export default function Home() {
             estratégica de Supes de élite.
           </p>
 
-          {/* BUTTONS */}
+          
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
 
            <a
@@ -108,10 +108,10 @@ export default function Home() {
 
       </section>
 
-      {/* STATS */}
+      
       <section className="border-t border-zinc-900 border-b border-zinc-900 bg-zinc-950 relative">
 
-        {/* WATERMARK */}
+        
         <p className="absolute inset-0 flex items-center justify-center text-[220px] font-black opacity-[0.02]">
           VOUGHT
         </p>
@@ -151,14 +151,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FEATURED HERO */}
+      
       <section className="py-28 px-6 relative overflow-hidden">
 
         <div className="absolute right-[-100px] top-20 w-[500px] h-[500px] bg-blue-600/10 blur-[150px] rounded-full"></div>
 
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center relative z-10">
 
-          {/* IMAGE */}
+          
           <motion.div
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.5 }}
@@ -176,7 +176,7 @@ export default function Home() {
             />
           </motion.div>
 
-          {/* TEXT */}
+          
           <motion.div
             initial={{ opacity: 0, x: 60 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -203,7 +203,7 @@ export default function Home() {
               desarrollado por Vought International.
             </p>
 
-            {/* DOSSIER */}
+            
             <div className="mt-10 grid grid-cols-3 gap-4">
 
               {[
@@ -238,7 +238,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* LATEST NEWS */}
+      
       <section className="py-28 px-6 bg-zinc-950 border-t border-zinc-900 relative overflow-hidden">
 
         <div className="absolute left-[-200px] top-0 w-[600px] h-[600px] bg-blue-600/10 blur-[180px] rounded-full"></div>
@@ -308,7 +308,7 @@ export default function Home() {
 
       </section>
 
-      {/* FINAL CTA */}
+      
       <section className="py-28 px-6 text-center border-t border-zinc-900 relative overflow-hidden">
 
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/10 to-black"></div>

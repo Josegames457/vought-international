@@ -32,7 +32,7 @@ export default function Diabolical() {
   return (
     <div className="min-h-screen bg-black text-white relative overflow-hidden">
 
-      {/* GLOW DINÁMICO */}
+      
       <div
         className="fixed top-[-200px] left-[-200px] w-[650px] h-[650px] blur-[160px] rounded-full"
         style={{ background: activeGlow }}
@@ -43,7 +43,7 @@ export default function Diabolical() {
         style={{ background: activeGlow }}
       />
 
-      {/* BACKGROUND */}
+      
       <div className="fixed inset-0 -z-10 bg-black">
         <div
           className="absolute inset-0 opacity-20 transition-all duration-500"
@@ -53,11 +53,11 @@ export default function Diabolical() {
         />
       </div>
 
-      {/* HERO */}
+      
 <section className="px-6 pt-32 pb-16">
   <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
-    {/* POSTER */}
+    
     <motion.img
       src="/diabolical/s1.jpg"
       alt="Diabolical"
@@ -72,7 +72,7 @@ export default function Diabolical() {
       "
     />
 
-    {/* INFO */}
+    
     <div>
 
       <span className="uppercase tracking-[0.5em] text-sm opacity-70">
@@ -83,18 +83,18 @@ export default function Diabolical() {
         DIABOLICAL
       </h1>
 
-      {/* TAGLINE */}
+      
       <p className="text-sm uppercase tracking-[0.5em] text-zinc-400 mt-4">
         ANIMATED SUPES • MULTIPLE STYLES • DARK HUMOR • ANTHOLOGY CHAOS
       </p>
 
-      {/* DESCRIPTION */}
+      
       <p className="text-zinc-300 mt-6 max-w-2xl leading-relaxed">
         Una colección de historias animadas dentro del universo de The Boys.
         Cada episodio tiene su propio estilo, tono y locura visual.
       </p>
 
-      {/* BUTTONS */}
+      
       <div className="flex gap-4 mt-10 flex-wrap">
 
         <button className="
@@ -127,7 +127,7 @@ export default function Diabolical() {
   </div>
 </section>
 
-      {/* EPISODIOS */}
+      
       <section className="px-6 pb-24">
         <div className="max-w-6xl mx-auto grid gap-5">
 
